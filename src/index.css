@@ -1,0 +1,64 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3b71ca;
+}
+
+h2 {
+  color: #3b71ca;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+}
+.todo-container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  height: auto;
+}
+.todo-container input {
+  width: 70%;
+  border: 2px solid #3b71ca;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.todo-container button {
+  padding: 11px 20px;
+  margin-left: 20px;
+  border: none;
+  background-color: #3b71ca;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+li {
+  width: 90%;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #e4eefc;
+  margin-block: 20px;
+  position: relative;
+  font-size: 15px;
+  list-style: none;
+}
+li i {
+  font-size: 20px;
+  color: #3b71ca;
+  cursor: pointer;
+}
+li i:nth-child(1) {
+  position: absolute;
+  right: 13%;
+}
+li i:nth-child(2) {
+  position: absolute;
+  right: 5%;
+}
